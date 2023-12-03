@@ -43,13 +43,6 @@ class QEVM() : ViewModel() {
                         second = ret[0].toString()
                     )
                 }
-
-                2 -> resultP.update { re ->
-                    re.copy(
-                        first = StateView.OK,
-                        second = ret[0].toString() + " " + ret[1].toString()
-                    )
-                }
             }
         }
     }

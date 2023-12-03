@@ -10,7 +10,8 @@ class QuadraticEquation {
 
     fun quadraticEquation(a: Double, x: Double, b : Double): List<Double> {
         val ret = mutableListOf<Double>()
-        ret.add(d(a, x, b))
+        if (d(a, x, b) > 0)
+            ret.add(d(a, x, b))
         return ret.toList()
     }
 }

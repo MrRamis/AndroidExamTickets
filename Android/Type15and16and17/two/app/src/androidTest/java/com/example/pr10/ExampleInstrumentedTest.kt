@@ -75,6 +75,6 @@ class ExampleInstrumentedTest {
         composeTestRule.onNodeWithTag(MainActivity.NUMBER2_TAG).performTextInput("-8")
         composeTestRule.onNodeWithTag(MainActivity.NUMBER3_TAG).performTextInput("5")
         composeTestRule.onNodeWithTag(MainActivity.BUTTON_TAG).performClick()
-        composeTestRule.onNodeWithTag(MainActivity.ANSWER_TAG).assertTextEquals("-11.0")
+        composeTestRule.onNodeWithTag(MainActivity.ANSWER_TAG).assertTextEquals(appContext.getString(R.string.no_roots))
     }
 }
