@@ -62,6 +62,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting( vm: QEVM,name: String, modifier: Modifier = Modifier) {
+  //  val viewModel:QEVM by viewModels()
+
     Column (verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally ) {
         var number1S by remember { mutableStateOf("") }
         var number2S by remember { mutableStateOf("") }
@@ -108,12 +110,6 @@ fun Greeting( vm: QEVM,name: String, modifier: Modifier = Modifier) {
                 modifier = Modifier.testTag(MainActivity.ANSWER_TAG)
             )
         else if (res.first == StateView.NoNull)
-
-
-
-
-
-
             Text(
                 text = stringResource(R.string.numberNullIncorrect),
                 modifier = Modifier.testTag(MainActivity.ANSWER_TAG)

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">pr10</string>
+    <string name="сount">Count</string>
+    <string name="enter_number">Enter number</string>
+    <string name="numder1incorrect">First number is not correct</string>
+    <string name="number2incorrect">Second number is not correct</string>
+    <string name="number3incorrect">Third number is not correct</string>
+    <string name="no_roots">No roots</string>
+    <string name="numberNullIncorrect">First number is not null</string>
+</resources>

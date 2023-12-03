@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pr10</string>
+    <string name="сount">Подсчёт</string>
+    <string name="enter_number">Введите номер</string>
+    <string name="numder1incorrect">Первая цифра не верна</string>
+    <string name="number2incorrect">Вторая цифра не верна</string>
+    <string name="number3incorrect">Третья цифра не верна</string>
+    <string name="no_roots">Нет корне</string>
+    <string name="numberNullIncorrect">Первое число нулевое</string>
+</resources>
